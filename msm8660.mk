@@ -130,8 +130,7 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 PRODUCT_PROPERTY_OVERRIDES += \
     com.qc.hardware=true \
     ro.opengles.version=131072 \
-    debug.egl.recordable.rgba8888=1 \
-    dalvik.vm.dexopt-data-only=0
+    debug.egl.recordable.rgba8888=1
 
 # Set default number of background apps to 15
 PRODUCT_PROPERTY_OVERRIDES += \
