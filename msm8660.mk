@@ -109,7 +109,8 @@ PRODUCT_PACKAGES += \
 # Media configuration
 PRODUCT_COPY_FILES += \
     device/htc/msm8660-common/configs/media_codecs.xml:system/etc/media_codecs.xml \
-    device/htc/msm8660-common/configs/media_profiles.xml:system/etc/media_profiles.xml
+    device/htc/msm8660-common/configs/media_profiles.xml:system/etc/media_profiles.xml \
+    device/htc/msm8660-common/configs/audio_effects.conf:system/etc/audio_effects.conf
 
 # MSM8660 firmware
 PRODUCT_COPY_FILES += \
